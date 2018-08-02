@@ -13,6 +13,7 @@ function capitialize(str) {
     return out.join(' ');                   //the return statement here stops the execution of code and turns out back into a string.
 }
 console.log(capitialize(sentence))
+console.clear()
 
 //2. The history of JavaScript is interesting but how many times does the letter a appear? Find a way to count both upper and lower case A's
 
@@ -29,6 +30,7 @@ function countA(str) {
     return counter
 }
 console.log(countA(jsHistory))
+console.clear()
 
 //3. Given the following sentence: Uppercase the entire word scream each time it appears in the sentence 
 //I SCREAM, you SCREAM, we all SCREAM for icecream
@@ -45,3 +47,4 @@ function capScream(str) {
     return out.join(' ')
 }
 console.log(capScream(text))
+console.clear()
