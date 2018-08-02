@@ -20,3 +20,4 @@ for (var key in me) {
 }
 
 console.log(Object.values(me))
+console.clear()
