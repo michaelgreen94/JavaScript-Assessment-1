@@ -50,3 +50,4 @@ function findInstructors(arr) {
 }
 findInstructors(contacts)
 console.log(instructors)
+console.clear()
