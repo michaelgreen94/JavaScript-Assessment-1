@@ -61,14 +61,13 @@ var crayola1990 = [
 //create a loop that will iterate over each item in the array and then use the String methods to modify the value at the current position in the array
 
 function makeUrl(arr) {
-	let out = arr.
-	for (let i = 0; i < arr.length; i++)
-		const color = arr[i];
-	if (color.includes(' ')) {
-
+	for (let i = 0; i < arr.length; i++) {
+		arr[i] = arr[i].toLowerCase().replace(/[ ]/gi,'-');
+		}
+		return arr;
 	}
-}
-console.log(makeUrl(crayola1990))
+
+	console.log(makeUrl(crayola1990))
 
 
 
@@ -105,8 +104,8 @@ console.log(makeUrl(crayola1990))
 
 
 
-/***** HINTS *******
- * remember strings are immutable but the value of a variable can be adjusted as often as needed.
- * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
- * there are multiple ways to do something like this but you might consider using split and join
- */
+	/***** HINTS *******
+	 * remember strings are immutable but the value of a variable can be adjusted as often as needed.
+	 * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
+	 * there are multiple ways to do something like this but you might consider using split and join
+	 */
