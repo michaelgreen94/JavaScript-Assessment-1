@@ -62,7 +62,7 @@ var crayola1990 = [
 
 function makeUrl(arr) {
 	for (let i = 0; i < arr.length; i++) {
-		arr[i] = arr[i].toLowerCase().replace(' ','-');
+		arr[i] = arr[i].toLowerCase().replace(' ','-'); //or use .replace(/[ ]/g, '-') to also replace every instance of the space with a hyphon
 		}
 		return arr;
 	}
