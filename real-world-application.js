@@ -62,7 +62,7 @@ var crayola1990 = [
 
 function makeUrl(arr) {
 	for (let i = 0; i < arr.length; i++) {
-		arr[i] = arr[i].toLowerCase().replace(/[ ]/gi,'-');
+		arr[i] = arr[i].toLowerCase().replace(' ','-');
 		}
 		return arr;
 	}
